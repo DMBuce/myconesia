@@ -6,3 +6,17 @@ config/multimob/modInformation
 config/BiomeTweaker/output
 config/splash.properties
 config/InvTweaks.cfg
+
+.curseclient
+.mixin.out/
+BotaniaVars.dat
+backups/
+crafttweaker.log
+knownkeys.txt
+logs/
+minecraftinstance.json
+mods/
+options.txt
+saves/
+usercache.json
+usernamecache.json
