@@ -1,0 +1,80 @@
+#!/bin/bash
+
+jsontemplate='
+		{
+			"description": "%s",
+			"targetBlockName": "%s",
+			"targetBlockState": "%s",
+			"fillBlockName": "%s",
+			"fillBlockState": "%s",
+			"radius": %s,
+			"chance": %s,
+			"centerIsAlwaysFill": false,
+			"surfaceIsFill": true,
+			"aboveIsRequireTransparent": false,
+			"aboveIsRequireAir": false
+		},'
+
+
+echo $'{\n\t"list": ['
+
+# bonemeal mycelium for botania mushrooms
+targetblock='minecraft:mycelium'
+while read desc state; do
+	printf "$jsontemplate" "$desc" \
+		"minecraft:mycelium" "" \
+		"botania:mushroom" "$state" \
+		'4.0' '0.0044'
+done < <(
+	cat <<-EOF
+		WhiteMushroom       color:white
+		OrangeMushroom      color:orange
+		MagentaMushroom     color:magenta
+		LightBlueMushroom   color:light_blue
+		YellowMushroom      color:yellow
+		LimeMushroom        color:lime
+		PinkMushroom        color:pink
+		GrayMushroom        color:gray
+		LightGrayMushroom   color:silver
+		CyanMushroom        color:cyan
+		PurpleMushroom      color:purple
+		BlueMushroom        color:blue
+		BrownMushroom       color:brown
+		GreenMushroom       color:green
+		RedMushroom         color:red
+		BlackMushroom       color:black
+	EOF
+)
+
+# bonemeal mycelium for vanilla mushrooms
+#printf "$jsontemplate" "RedVanillaMushroom" \
+#	"minecraft:mycelium" "" \
+#	"minecraft:red_mushroom" "" \
+#	'4.0' '0.0055'
+#printf "$jsontemplate" "BrownVanillaMushroom" \
+#	"minecraft:mycelium" "" \
+#	"minecraft:brown_mushroom" "" \
+#	'4.0' '0.0055'
+
+# bonemeal sand for deadbush, cactus, sugarcane
+printf "$jsontemplate" "DeadBush" \
+	"minecraft:sand" "" \
+	"minecraft:deadbush" "" \
+	'1.0' '0.5'
+printf "$jsontemplate" "Cactus" \
+	"minecraft:sand" "" \
+	"minecraft:cactus" "" \
+	'1.0' '0.1'
+printf "$jsontemplate" "Sugarcane" \
+	"minecraft:sand" "" \
+	"minecraft:reeds" "" \
+	'1.0' '0.1'
+
+# bonemeal dirt for tall grass
+printf "${jsontemplate%,}" "TallGrass" \
+	"minecraft:dirt" "variant:dirt" \
+	"minecraft:tallgrass" "type:tall_grass" \
+	'2.0' '0.39'
+
+echo $'\n\t]\n}'
+

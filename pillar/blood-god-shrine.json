@@ -1,0 +1,29 @@
+{
+	"generatorType": "ANYWHERE",
+	"minY": 48,
+	"maxY": 100,
+	"offsetX": 0,
+	"offsetY": 0,
+	"offsetZ": 0,
+
+	"mirrorType": "NONE",
+	"rotation": null,
+	"ignoreEntities": false,
+
+	"dimensionSpawns": [-1],
+	"biomeNameSpawns": ["minecraft:hell"],
+	"biomeTagSpawns": [],
+	"isDimensionSpawnsBlacklist": false,
+	"isBiomeNameSpawnsBlacklist": false,
+	"isBiomeTagSpawnsBlacklist": false,
+	"generateEverywhere": false,
+
+	"integrity": 1,
+	"decay": 0,
+
+	"filling": "minecraft:red_nether_brick",
+	"fillingMetadata": 0,
+	"fillingType": "AIR_WATER",
+	
+	"rarity": 300
+}

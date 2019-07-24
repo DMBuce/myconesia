@@ -1,0 +1,364 @@
+
+cool seeds:
+7550444640844751794
+276527397047639334
+-3104067206791784920
+-4419318842425835617
+
+Doing
+--
+Take screenshots
+Build pack
+* reimplement twitch-export-builder?
+* https://www.youtube.com/watch?v=GOlw2rHKWS8
+* contact citricsquid?
+Playtest
+* Test pillar structures
+* Make auto tree farm
+* Test all goals from "Possible goal" tab
+* Obtain Questing Ram or Gaia Guardian head
+
+Known Issues
+--
+Can't use flower pots in Dark Forest biomes
+InControl screwiness
+* Make new mod?
+* Mobs in the nether only spawn on specific blocks
+* Look into InControl perchunk https://www.reddit.com/r/feedthebeast/comments/c9pcec/new_version_of_in_control_3911_for_1122/
+
+Done
+--
+Run JER profiler
+Fix Sapling sources
+* Fix oak trees in Goblin Knight Fortress
+* Change Giant Oak Leaf recipe to output Twilight Oak leaves
+* Fix Flower Pot saplings in Ur Ghast tower
+* Set up JER worldgen, check for leaves, saplings, flower pots
+* Test pistons w/ flower pots
+Comb through ./resources/, remove unused assets
+Add Default Options
+* Set mipmap
+Custom Nether and End structures
+Put structures in Nether and End
+Document stuff
+* How to start with Psi, Botania, Twilight Forest
+* Pilfer abandoned mines for iron_nugget, rail, minecart
+Add emerald + totem to illusion_illager drops
+Review COFH
+* remove tnt
+* make sure no other trap structures
+Test Quark grave totem with tnt
+Add Guide/Help/Tutorial
+* Add JEI desc for nether spawns
+* Write / proofread
+Disable Jaded Amaranthus recipe
+Fix End spawns
+Configure Quark
+Tweak Stone Crafting Table recipe & texture
+Add Johnnies to Nether
+Docs
+* Rename to Tutorial / Help Guide with Chapters
+Use Quark's panorama feature to set a custom main menu
+Iron smelting recipes
+* door -> ingot
+* bars -> nugget
+Make fence > stick recipe
+Add saplings
+* Scavenge
+* mid/end game goal?
+Add wood?
+Remove hostile mobs
+Add hostile mobs to nether
+Add source of obsidian or blaze powder
+Add mushrooms to overworld
+Look into Dimensional Control for worldgen
+Reduce Wizardry trees in worldgen
+Check if Wisdom Trees drop saplings
+Add Seagrass On Stick recipe
+Fix botania recipes
+* tweak flowers, tall flowers, petals, petal blocks, flower bag
+* all Mana Infused String + 8 Petal recipes
+Redo Worldgen, look into non-OTG mods
+* Topography
+* Biome Tweaker (can replace stone with dirt)
+* CoFH World?
+* #abandoned's repo?
+* Advanced Rocketry
+* Just Enough Dimensions
+* Dimensional Control
+* Void Island Control
+* Climate Control/Geographicraft
+Add seeds as grass drops
+Sources of wood
+* Pure daisy + mushrooms
+* Mutandis + melon/pumpkin
+Change glimmering flower recipe to be mutandis scavenge
+Add 2x2 fishing rod recipe
+Add coral to seagrass on a stick recipe
+Unfuck primitive mobs
+* Block disabled mobs with incontrol
+* Remove slimes, tools from nether
+Overhaul fishing
+* cutting board
+* Cave fish > coal
+* Change Magma Jellyfish to give 2 blaze powder
+* Change Ender Pearl fish to Ender Clam
+* More fish-based recipes
+** Pure Daisy + Magma = Obsidian
+** Pure Daisy + Mushroom = Wood
+* Tweak Fishing tables with LootTweaker mod
+** Add fish
+* Make Angelfish > Feather recipe
+Bonemeal Control
+* Test floral fertilizer, tweak mycelium to match
+* Bonemeal dirt for tall grass
+* Bonemeal Mycelium > Mushrooms
+* Bonemeal Sand > Cinderpearl, Dead Bush, Cactus, Sugarcane
+* Bonemeal Dirt > Tall Grass, Sugarcane
+* JEI tooltips
+WorldPrimer: /gamerule commandBlockOutput false
+Add Mods
+* WorldPrimer
+* Perf mods: FastWorkBench, Phosphor, BetterFPS, VanillaFix, FoamFix
+* Stone Crafting Table
+* Diet Hoppers
+* Simplified Horses
+* Akashic Tome
+* Antique Atlas
+* Controlling
+* Underwater Chest Bubbles
+* AromaBackup
+* Bauble Shulker Boxes
+* Clear Water
+* CoralReef
+* QuickLeafDecay
+* Harvest
+* Portal Gun
+* Clear Water
+* CoralReef
+* QuickLeafDecay
+* Harvest
+Try renaming apothecary using item.addToolTip()
+* didn't work, nor did using .displayName = "Foo"
+Mutagenic Fertilizer recipe
+Add smelting recipes for rails, carts
+Tweak water fog in ClearWater config
+FastWorkbench
+Disable pirate ships
+Delete chest at 0,0
+Set up PrimitiveMobs
+* Bewitched Tome, Haunted Tool leave as Default
+* Dodo in Mushroom Biome
+* Brain Slime in the End
+* Spider Family in the Nether
+* Festive Creeper in Nether
+* Treasure Slime on bedrock? obsidian?
+Set up InControl
+Add Toast Control
+Rename to Garden of Grime
+Scavenge for string, sticks
+World/worldgen changes
+* Obsidian End Quartz Geodes in The End
+* Obsidian spikes in The End
+* TNT in the nether
+* Nether bone pillars
+* Add botania mushrooms
+* Add mossy cobble veins
+Add a source for logs
+* red mushroom + pure daisy = dark oak
+* brown mushroom + pure daisy = oak
+* Mutagenic Paste + Melon = Jungle (can't be automated)
+* Mutagenic Paste + Pumpkin = Spruce (can't be automated)
+Botania Tweaks
+Add sapling recipe
+* twilight wood + elven wood + wand of the forest
+Add merpig
+Fix multimob.dummy entities
+Corpse Complex
+* Lose XP on death
+* Soulbinding
+* Nerf XP drop
+Oregen
+* Remove ores from overworld
+* Add coal back to overworld
+* Add ores to nether
+** Use default cofh config as a guide
+* Remove unused ores from JEI
+* Fix Orechid
+* Remove ardite, cobalt from Orechid Ignem
+* Add Mithril
+** Oredict to all basic ingots: iron, manasteel, starmetal, psimetal, brass
+** Obtainable from Blood Magic Meteors, Orechid Ignis
+
+Scrapped
+--
+Possibly remove unnecessary recipes
+* End portal frame
+* Sapling (if tree sprite spawn egg is craftable)
+WorldPrimer keepInventory true
+Check last two blocks of resources.zs
+* antique atlas, akashic tome
+Add 3x3 mushroom block recipes
+Early game Night Vision effect?
+* ContentTweaker (beef stew?)
+* Set Bonus (pumpkin helmet?)
+* Potion Fingers
+* Pumpkin + Carrot = Night Vision Helmet
+* Beetroots = Limited Night Vision
+Overhaul fluids, add lots of interactions
+Retexture Bird's Foods
+Add Lore?
+* Use Scavenge for notes
+Add sources of unobtainable material
+* Crystal Ore? (from EBWizardry)
+* Cinnabar (or shimmerleaf)
+Add Luminous Crafting Table recipe
+Add shift-right-click Luminous Altar
+Add sources of unobtainable material
+* Rock Crystal
+* Starmetal
+Tweak Astral Sorcery
+* Generate Rock Crystal in Overworld
+* Fix shrine generation
+* Retexture ores
+Thaumcraft Obsidian - glass + fire + darkness + earth
+Explore early game Wizardry, Psi, Thaumcraft, AstralSorc
+Make treasure shrines not generate stone
+Add Missing Ores
+* Vanilla ores - use Nether Ending Ores mod
+* Amber in the Nether
+* Rock Crystal in The End, not on surface
+* Starmetal also in The End
+Add Black Lotus to Mana Pools
+Blood Magic: Extract blood from Living(wood|rock) to make regular (wood|stone)
+Check Bird's Foods for overlapping recipes
+Nerf vanilla tools
+Integrate different types of mana
+Add modded ores where they belong
+* Astral Sorcery: Treasure shrines, various perks, etc.
+* Blood Magic: That one meteor ritual
+Add mods
+* Ceramics for fluid transfer
+* Inspirations
+* Bird's Foods
+* Punch Wool Off Sheep
+* Akashic Tome
+* Popcorn Smelting
+* Merpig
+* Just a Few Fish
+* Wizardry Mod as an Ars Magicka replacement
+* Aqua Creepers
+Redo wood recipes
+* Pure Daisy + Cactus = Acacia (requires block placers/breakers, timing)
+* Crucible + Mushroom + Plant Aspect = Oak (requires silk touch mushroom farm, risky)
+* Alchemical Table + 2 Plank + Paper + Blood = Dark Oak (needs autocrafting)
+* Mutagenic Paste + Melon = Jungle (can't be automated)
+* Mutagenic Paste + Pumpkin = Spruce (can't be automated)
+* Astral Sorcery: Crystal + Wool = Birch
+Add easy alchemy recipes for thaumcraft wood from regular wood
+* Botania: alchemical catalyst
+* Blood Magic: alchemy circle (arcane ashes) - mutagenic paste for reagent
+* Astral Sorcery: Starlight Transmutation - birch & dark oak
+Petal Apothecary: Green + Green + Black Petal > Cactus
+Add 5x5 sapling recipe
+Make shrines and mana pools more rare
+Nether blood pools
+Give Akashic Tome at the beginning
+Check Antique Atlas + Akashic Tome interaction
+Inspirations
+* Remove heartbeet, xmas bushes, path, barometer, north compass
+Redo Bird's Food fish recipes
+Try to add endgame content
+* Polluted Earth tweaked to replace mycelium and decay into grass
+* Command block magic for gamemode 3 astral projection
+Add Skylands
+* Add primitive mob spawns
+Recurrent Complex / OTG Structure / Pillar / Prefab / Capsule ideas
+* https://docs.google.com/document/d/13wnL56VXB76Yth3lY__hP_8WAu5eYNWls0q4N-3VpVo/edit
+* Add Thaumcraft portals and stuff
+* Giant mushrooms made of petal blocks
+* Superhostile-type nether structures
+* Structures with spawners in nether / end
+* Shrines to Jubbligu with slime spawners
+* Use Killer Bunny, Illusioner, Vex, Illagers, Firebats, Wisps somehow
+* Also use TNT and fire arrows
+* Put good wizards in encased obsidian end towers, make natgen towers short
+Possible Mods
+* SplashAnimation
+* Docs: HQM or Triumph or FTB Quests or Patchouli or RTFM
+* NoDamI (No Damage Immunity)
+* Optimization mods: BetterFPS, VanillaFix, FoamFix
+* Block Drops JEI mod
+* World Primer
+* Underwater Chest Bubbles
+* Quick Leaf Decay
+* Unhealthy Dying
+* Cooking for BlockHeads?
+* Alfinivia - liquid interaction! right-click entities!
+* Tool Belt
+* Fixable Slots
+* NoMoreRecipeConflict
+* Block Drops Tweaker?
+* Tell Me?
+* Chicken Chunk
+* Modular Machinery -- could do multiblock altar type things
+* Addons for Thaumcraft, Blood Magic
+* Roguelike Dungeons - for spawners? or just add spawn eggs?
+* Epic Siege Mod or something else to increase line-of-sight aggro distance
+* Botania Tweaks
+* Blood Moon - for slimes only
+* Copy-Paste mod
+* Quadrum for custom blocks/items
+* Cyclic - for block placers?
+
+Description
+--
+The coasts have washed away, worn by the tides of time. One spit of land remains, overgrown with fungi. Only three lifeforms cling to existence: Mushroom-infected cows, a strange species of delicious flightless birds, and you.
+
+Welcome to Myconesia, a Mushroom Island Challenge modpack.
+
+Myconesia
+/mīˈkōˈniːʒə/
+*noun*
+1. An island covered in fungi.
+2. The only landmass remaining after the Mycopalypse.
+Etymology: From Greek *myco-* "fungus" + *-nesia* "island".
+
+This modpack features:
+* Gameplay focused on Botania, The Twilight Forest, and the Mushroom Challenge from vanilla
+* Fishing as a method of early game resource gathering
+* Unique methods for farming wood
+* Vanilla saplings as an endgame goal
+* A mostly peaceful overworld with no ores besides coal
+* A superhostile nether full of ores
+* Custom structures in the Nether and End
+* Documentation provided in the form of JEI info tabs
+
+You might like this modpack if:
+* You tend to overlook Botania or Twilight Forest, and want a pack that puts them in the spotlight
+* You get overwhelmed by all the options available in bigger modpacks and prefer more focused gameplay
+* You've always wanted to build a mushroom island base, or an underwater base
+* You wish you had more opportunity to use dim lighting for ambience
+* You want peaceful gameplay interspersed with intense combat
+* You're sick of starting the game by punching wood
+* You want a reason to farm huge mushrooms
+* You like Botania but dislike how its petals and flowers clutter up your inventory
+* You think Shimmering Mushrooms are pretty
+
+You might **not** like this modpack if:
+* You prefer big packs with lots of mods and/or quests
+* You expect access to vanilla saplings in the early game
+* You enjoy turbo-charged endgame goals like Draconic Evolution, Avaritia, and Creative items
+
+Many common mods aren't in this pack. For example:
+
+* There's no Journeymap because I prefer Antique Atlas
+* There's no Pam's HarvestCraft because I prefer Hatchling Snacks (though I might be biased)
+* There's no Iron Chests or Storage Drawers or Refined Storage or Applied Energistics because I think vanilla chests + Charset barrels + Quark pipes are better suited to a pack that doesn't have many very many extra items
+* No backpack/pouch/bag mods because, again, there aren't that many items so Hand of Ender + Bauble Shulker Boxes is enough
+* Similarly, no WAILA because F3 is enough when the modlist is this small
+* No Tinker's, Reliquary, Cyclic, Random Things, or Extra Utilities because they would eclipse some tools from Botania
+* No Gravestone mod because Quark's Totem of Holding has that feature covered
+
+If you feel your experience would be enhanced by any of the mods I omitted, I encourage you to install them.
+

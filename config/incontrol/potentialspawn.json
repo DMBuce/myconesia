@@ -1,0 +1,68 @@
+[
+	{
+		"dimension": -1,
+		"block": [
+			"minecraft:netherrack",
+			"minecraft:soul_sand"
+		],
+		"mobs": [
+			{ "weight": 100, "groupcountmin": 4, "groupcountmax": 4, "mob": "minecraft:creeper" },
+			{ "weight": 100, "groupcountmin": 4, "groupcountmax": 4, "mob": "minecraft:skeleton" },
+			{ "weight": 100, "groupcountmin": 4, "groupcountmax": 4, "mob": "minecraft:spider" },
+			{ "weight": 5,   "groupcountmin": 1, "groupcountmax": 1, "mob": "minecraft:witch" },
+			{ "weight": 5,   "groupcountmin": 1, "groupcountmax": 1, "mob": "minecraft:vindication_illager" },
+			{ "weight": 5,   "groupcountmin": 1, "groupcountmax": 1, "mob": "minecraft:zombie_villager" },
+			{ "weight": 95,  "groupcountmin": 4, "groupcountmax": 4, "mob": "minecraft:zombie" },
+
+			{ "weight": 5,   "groupcountmin": 1, "groupcountmax": 1, "mob": "primitivemobs:mother_spider" },
+			{ "weight": 5,   "groupcountmin": 4, "groupcountmax": 4, "mob": "primitivemobs:festive_creeper" }
+		]
+	},
+	{
+		"dimension": -1,
+		"block": [
+			"minecraft:nether_brick"
+		],
+		"mobs": [
+			{ "weight": 20, "groupcountmin": 3, "groupcountmax": 3, "mob": "minecraft:wither_skeleton" },
+			{ "weight": 20, "groupcountmin": 2, "groupcountmax": 4, "mob": "minecraft:blaze" }
+		]
+	},
+	{
+		"dimension": 7,
+		"block": [
+			"minecraft:stone",
+			"minecraft:grass"
+		],
+		"mobs": [
+			{ "weight": 10, "groupcountmin": 1, "groupcountmax": 1, "mob": "primitivemobs:trollager" }
+		]
+	},
+	{
+		"dimension": 1,
+		"block": [
+			"minecraft:end_stone"
+		],
+		"mobs": [
+			{ "weight": 100, "groupcountmin": 4, "groupcountmax": 4, "mob": "primitivemobs:brain_slime" }
+		]
+	},
+	{
+		"dimension": 1,
+		"block": [
+			"minecraft:purpur_block",
+			"minecraft:purpur_pillar",
+			"minecraft:end_stone_bricks"
+		],
+		"mobs": [
+			{ "weight": 100, "groupcountmin": 1, "groupcountmax": 1, "mob": "primitivemobs:bewitched_tome" }
+		]
+	},
+	{
+		"dimension": 0,
+		"mobs": [
+			{ "weight": 5, "groupcountmin": 1, "groupcountmax": 1, "mob": "primitivemobs:treasure_slime" }
+		]
+	}
+]
+

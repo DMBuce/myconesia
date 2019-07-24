@@ -1,0 +1,35 @@
+{
+"block_pools" : [
+	{
+		"name": "mycelium-resources",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:mycelium" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_sneak",
+				"sneak": true,
+				"disableJEI": true
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": true
+			}
+		],
+		"drops":
+		[
+			{ "name": "minecraft:string",     "chance": 3 },
+			{ "name": "minecraft:stick",      "chance": 5 },
+			{ "name": "botania:manaresource", "chance": 99, "meta": 21 }
+		]
+	}
+]
+}

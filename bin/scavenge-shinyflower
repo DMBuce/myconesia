@@ -1,0 +1,64 @@
+#!/bin/bash
+
+jsontemplate='
+	{
+		"name": "%s",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": %s
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": %s,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},'
+
+echo -n '{ "block_pools" : ['
+
+# bonemeal mycelium for botania mushrooms
+targetblock='minecraft:mycelium'
+while read name meta; do
+	printf "$jsontemplate" "$name" "$meta" "$meta"
+done < <(
+	cat <<-EOF
+		WhiteShinyFlower       0
+		OrangeShinyFlower      1
+		MagentaShinyFlower     2
+		LightBlueShinyFlower   3
+		YellowShinyFlower      4
+		LimeShinyFlower        5
+		PinkShinyFlower        6
+		GrayShinyFlower        7
+		LightGrayShinyFlower   8
+		CyanShinyFlower        9
+		PurpleShinyFlower      10
+		BlueShinyFlower        11
+		BrownShinyFlower       12
+		GreenShinyFlower       13
+		RedShinyFlower         14
+		BlackShinyFlower       15
+	EOF
+) | sed '$ s/,$//'
+
+echo $'\n]}'
+

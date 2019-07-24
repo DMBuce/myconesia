@@ -1,0 +1,110 @@
+#!/bin/bash
+
+jsontemplate='
+	{
+		"name": "%s",
+		"disableJEI": true,
+		"type": {
+			"type": "block_list",
+			"blocks": [
+				{ "name": "minecraft:wooden_pressure_plate" },
+				{ "name": "minecraft:stone_pressure_plate" },
+				{ "name": "minecraft:light_weighted_pressure_plate" },
+				{ "name": "minecraft:heavy_weighted_pressure_plate" }
+			]
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "%s",
+				"meta": %s,
+				"amount": %s,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"name": "%s",
+				"meta": %s,
+				"amount": %s,
+				"disableJEI": true
+			},
+			{
+				"type": "drop_items",
+				"doDrop": true,
+				"disableJEI": true
+			}
+		],
+		"drops": [
+			{ "name": "%s"%s }
+		]
+	},'
+
+echo -n '{ "block_pools" : ['
+
+# bonemeal mycelium for botania mushrooms
+targetblock='minecraft:mycelium'
+while read name moditemmeta amount output extra; do
+	[[ "$name" == \#* ]] && continue
+	IFS=: read mod item meta <<< "$moditemmeta"
+	item="$mod:$item"
+	printf "$jsontemplate" "$name" \
+		"$item" "$meta" "$amount" "$item" "$meta" "$amount" \
+		"$output" "$extra"
+done < <(
+	cat <<-EOF
+		jellyfish          advanced-fishing:fish:0 1 minecraft:slime_ball
+		magma-jellyfish    advanced-fishing:fish:1 1 minecraft:blaze_powder , "amount": 2
+		mud-tuna           advanced-fishing:fish:2 1 minecraft:clay_ball , "amount": 4
+		frost-minnow       advanced-fishing:fish:3 1 minecraft:ice
+		piranha            advanced-fishing:fish:4 1 giacomos_fishing_net:itemfishmeal
+		golden-koi         advanced-fishing:fish:5 1 minecraft:gold_nugget , "amount": 2
+		#specular-snapper   advanced-fishing:fish:6 1 thaumcraft:quicksilver
+		specular-snapper   advanced-fishing:fish:6 1 giacomos_fishing_net:itemfishmeal
+		cave-trout         advanced-fishing:fish:7 1 minecraft:coal , "amount": 4
+		obsidian-bream     advanced-fishing:fish:8 1 minecraft:obsidian
+		nether-sturgeon    advanced-fishing:fish:9 1 minecraft:netherrack
+		quartz-chub        advanced-fishing:fish:10 1 minecraft:quartz , "amount": 4
+		flarefin-koi       advanced-fishing:fish:11 1 minecraft:glowstone_dust , "amount": 2
+		blaze-pike         advanced-fishing:fish:12 1 minecraft:blaze_rod
+		ender-shad         advanced-fishing:fish:13 1 minecraft:end_stone
+		enderclam          advanced-fishing:fish:14 1 minecraft:ender_pearl
+		chorus-koi         advanced-fishing:fish:15 1 minecraft:chorus_fruit
+		explosive-crucian  advanced-fishing:fish:16 1 minecraft:gunpowder , "amount": 3
+		ruffe              advanced-fishing:fish:17 1 giacomos_fishing_net:itemfishmeal
+		#sparkling-eel      advanced-fishing:fish:18 1 astralsorcery:itemcraftingcomponent , "meta": 2, "amount": 2
+		sparkling-eel      advanced-fishing:fish:18 1 giacomos_fishing_net:itemfishmeal
+		angelfish          advanced-fishing:fish:19 1 minecraft:feather , "amount": 4
+		angler-fish        advanced-fishing:fish:20 1 minecraft:prismarine_crystals , "amount": 2
+		sponge-eater       advanced-fishing:fish:21 4 minecraft:sponge
+		snowy-walleye      advanced-fishing:fish:22 1 minecraft:snowball , "amount": 4
+		squid              advanced-fishing:fish:23 1 minecraft:dye , "meta": 0, "amount": 5
+		withered-crucian   advanced-fishing:fish:24 1 minecraft:soul_sand
+		sandy-bass         advanced-fishing:fish:25 1 minecraft:sand
+		mandarinfish       advanced-fishing:fish:26 1 giacomos_fishing_net:itemfishmeal
+		red-shroomfin      advanced-fishing:fish:27 1 minecraft:red_mushroom , "amount": 5
+		brown-shroomfin    advanced-fishing:fish:28 1 minecraft:brown_mushroom , "amount": 5
+		fungi-catfish      advanced-fishing:fish:29 1 minecraft:spider_eye , "amount": 2
+		swamp-plaice       advanced-fishing:fish:30 1 minecraft:waterlily
+		crystal-mullet     advanced-fishing:fish:31 1 minecraft:dye , "meta": 4, "amount": 5
+		charged-bullhead   advanced-fishing:fish:32 1 minecraft:redstone , "amount": 5
+		abyssal-lurker     advanced-fishing:fish:33 1 minecraft:prismarine_shard , "amount": 4
+		sunfish            advanced-fishing:fish:34 1 minecraft:glowstone_dust , "amount": 2
+		glacier-anchovy    advanced-fishing:fish:35 1 minecraft:packed_ice
+		catfish            advanced-fishing:fish:36 1 giacomos_fishing_net:itemfishmeal , "amount": 3
+		pike               advanced-fishing:fish:37 1 giacomos_fishing_net:itemfishmeal , "amount": 3
+		#magikarp           advanced-fishing:fish:38 1 ebwizardry:magic_crystal
+		green-jellyfish    advanced-fishing:fish:39 1 minecraft:slime_ball , "amount": 2
+		bonefish           advanced-fishing:fish:40 1 minecraft:bone
+		#cursed-koi         advanced-fishing:fish:41 1 minecraft:bone
+		#spookyfin          advanced-fishing:fish:42 1 minecraft:bone
+		cod          minecraft:fish:0 1 giacomos_fishing_net:itemfishmeal
+		salmon       minecraft:fish:1 1 giacomos_fishing_net:itemfishmeal
+		clownfish    minecraft:fish:2 1 giacomos_fishing_net:itemfishmeal
+		pufferfish   minecraft:fish:3 1 giacomos_fishing_net:itemfishmeal
+	EOF
+) | sed '$ s/,$//'
+
+echo $'\n]}'
+

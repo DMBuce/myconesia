@@ -1,0 +1,498 @@
+{ "block_pools" : [
+	{
+		"name": "WhiteShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 0
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 0,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "OrangeShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 1
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 1,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "MagentaShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 2
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 2,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "LightBlueShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 3
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 3,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "YellowShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 4
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 4,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "LimeShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 5
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 5,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "PinkShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 6
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 6,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "GrayShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 7
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 7,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "LightGrayShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 8
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 8,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "CyanShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 9
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 9,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "PurpleShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 10
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 10,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "BlueShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 11
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 11,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "BrownShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 12
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 12,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "GreenShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 13
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 13,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "RedShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 14
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 14,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "BlackShinyFlower",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:mushroom",
+			"meta": 15
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "contenttweaker:mutandis",
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "botania:shinyflower",
+				"meta": 15,
+				"amount": 1,
+				"disableJEI": true
+			}
+		]
+	}
+]}

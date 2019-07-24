@@ -1,0 +1,195 @@
+[
+	{
+		"mob": [
+			"multimob:dummy",
+			"primitivemobs:blazing_juggernaut",
+			"primitivemobs:chameleon",
+			"primitivemobs:filch_lizard",
+			"primitivemobs:flame_spewer",
+			"primitivemobs:goblin",
+			"primitivemobs:grovesprite",
+			"primitivemobs:harpy",
+			"primitivemobs:lily_lurker",
+			"primitivemobs:lost_miner",
+			"primitivemobs:mimic",
+			"primitivemobs:rocket_creeper",
+			"primitivemobs:sheepman",
+			"primitivemobs:skeleton_warrior",
+			"primitivemobs:support_creeper",
+			"primitivemobs:traveling_merchant",
+			"primitivemobs:trollager",
+			"primitivemobs:void_eye"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 7,
+		"mob": [
+			"primitivemobs:festive_creeper",
+			"primitivemobs:mother_spider",
+			"primitivemobs:brain_slime",
+			"primitivemobs:haunted_tool",
+			"primitivemobs:bewitched_tome",
+			"primitivemobs:treasure_slime"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"primitivemobs:haunted_tool",
+			"primitivemobs:bewitched_tome",
+			"primitivemobs:treasure_slime"
+		],
+		"result": "deny"
+	},
+	{
+		"maxspawndist": 200,
+		"mob": [
+			"minecraft:squid",
+			"minecraft:guardian",
+			"merpig:merpig"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"mob": [
+			"primitivemobs:treasure_slime",
+			"primitivemobs:haunted_tool"
+		],
+		"maxcount": 2,
+		"maxheight": 40,
+		"result": "allow"
+	},
+	{
+		"dimension": 0,
+		"mob": [
+			"primitivemobs:treasure_slime",
+			"primitivemobs:haunted_tool"
+		],
+		"mincount": 2,
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"mob": [
+			"primitivemobs:treasure_slime",
+			"primitivemobs:haunted_tool"
+		],
+		"minheight": 41,
+		"result": "deny"
+	},
+	{
+		"dimension": 1,
+		"mob": [
+			"primitivemobs:brain_slime",
+			"primitivemobs:bewitched_tome"
+		],
+		"maxcount": 2,
+		"result": "allow"
+	},
+	{
+		"dimension": 1,
+		"block": [
+			"minecraft:end_stone"
+		],
+		"mob": [
+			"primitivemobs:bewitched_tome"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 1,
+		"mob": [
+			"primitivemobs:haunted_tool",
+			"primitivemobs:mother_spider",
+			"primitivemobs:treasure_slime",
+			"primitivemobs:festive_creeper"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": 0,
+		"mob": [
+			"minecraft:creeper",
+			"minecraft:zombie",
+			"minecraft:zombie_villager",
+			"minecraft:skeleton",
+			"minecraft:spider",
+			"minecraft:enderman",
+			"minecraft:witch",
+
+			"primitivemobs:bewitched_tome",
+			"primitivemobs:brain_slime",
+			"primitivemobs:mother_spider",
+			"primitivemobs:festive_creeper"
+		],
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:zombie"
+		],
+		"mincount": 25,
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:blaze"
+		],
+		"mincount": 6,
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:wither_skeleton"
+		],
+		"mincount": 12,
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:skeleton",
+			"minecraft:creeper",
+			"minecraft:spider"
+		],
+		"mincount": 12,
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"mob": [
+			"minecraft:zombie_villager",
+			"minecraft:witch",
+			"minecraft:vindication_illager",
+
+			"primitivemobs:mother_spider",
+			"primitivemobs:blazing_juggernaut",
+			"primitivemobs:festive_creeper"
+		],
+		"mincount": 2,
+		"result": "deny"
+	},
+	{
+		"dimension": 7,
+		"mob": [
+			"primitivemobs:trollager"
+		],
+		"mincount": 3,
+		"result": "deny"
+	},
+	{
+		"dimension": -1,
+		"block": "minecraft:bone_block",
+		"seesky": true,
+		"result": "deny"
+	},
+	{
+		"result": "default"
+	}
+]
