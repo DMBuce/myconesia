@@ -1,6 +1,7 @@
 {
   "version": 2,
   "data": {
+    "hcisland:__mask": "PLAINS",
     "hcisland:beach": "SHORE",
     "hcisland:island": "SPARSE_FOREST",
     "hcisland:island_lowlands": "SPARSE_FOREST",
