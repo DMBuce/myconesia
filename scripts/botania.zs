@@ -225,6 +225,14 @@ mods.jei.JEI.removeAndHide(<botania:petalblock:13>);
 mods.jei.JEI.removeAndHide(<botania:petalblock:14>);
 mods.jei.JEI.removeAndHide(<botania:petalblock:15>);
 
+# replace floral fertilizer in red stringed nutrifier recipe
+recipes.removeByRecipeName("botania:redstringfertilizer");
+recipes.addShaped("CTRedStringFertilizer", <botania:redstringfertilizer>, [
+	[<botania:livingrock>, <botania:livingrock>, <botania:livingrock>],
+	[<botania:livingrock>, <minecraft:dye:15>, <botania:manaresource:12>],
+	[<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]
+]);
+
 # turn shimmering mushrooms into glimmering flowers
 recipes.remove(<botania:shinyflower:0>);
 recipes.remove(<botania:shinyflower:1>);
