@@ -22,6 +22,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "minecraft:log",
 				"meta": 1,
@@ -52,6 +57,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "minecraft:log",
 				"meta": 3,
@@ -79,6 +89,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{

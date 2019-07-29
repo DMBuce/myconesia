@@ -19,6 +19,12 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.grass.place",
+				"volume": 0.4,
+				"disableJEI": true
+			},
+			{
 				"type": "drop_items",
 				"doDrop": true,
 				"disableJEI": true

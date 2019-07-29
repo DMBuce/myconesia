@@ -1,0 +1,32 @@
+
+//Set icon item
+setIcon(<botania:specialflower, nbt:{type:"puredaisy"}>)
+setFrameType("goal")
+
+//Set title String
+setTitle("Pure Daisy")
+
+//Set description String
+setDescription("Make a pure daisy -- you can find out how by crafting and reading the Lexica Botania")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("myconesia:mushrooms")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(50,49)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+alwaysVisible()
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasDaisy", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<botania:specialflower, nbt:{type:"puredaisy"}>)

@@ -1,0 +1,46 @@
+
+//Set icon item
+setIcon(<botania:mushroom:4>)
+
+//Set title String
+setTitle("Mushrooms")
+
+//Set description String
+setDescription("Use bonemeal on mycelium to get every kind of glimmering mushroom")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("myconesia:bonemeal")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(17,49)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+alwaysVisible()
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasMushrooms", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<botania:mushroom:0>)
+criteria.addItem(<botania:mushroom:1>)
+criteria.addItem(<botania:mushroom:2>)
+criteria.addItem(<botania:mushroom:3>)
+criteria.addItem(<botania:mushroom:4>)
+criteria.addItem(<botania:mushroom:5>)
+criteria.addItem(<botania:mushroom:6>)
+criteria.addItem(<botania:mushroom:7>)
+criteria.addItem(<botania:mushroom:8>)
+criteria.addItem(<botania:mushroom:9>)
+criteria.addItem(<botania:mushroom:10>)
+criteria.addItem(<botania:mushroom:11>)
+criteria.addItem(<botania:mushroom:12>)
+criteria.addItem(<botania:mushroom:13>)
+criteria.addItem(<botania:mushroom:14>)
+criteria.addItem(<botania:mushroom:15>)

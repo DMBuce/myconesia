@@ -22,6 +22,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 0,
@@ -50,6 +55,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -84,6 +94,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 2,
@@ -112,6 +127,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -146,6 +166,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 4,
@@ -174,6 +199,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -208,6 +238,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 6,
@@ -236,6 +271,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -270,6 +310,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 8,
@@ -298,6 +343,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -332,6 +382,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 10,
@@ -360,6 +415,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -394,6 +454,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 12,
@@ -422,6 +487,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{
@@ -456,6 +526,11 @@
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": 14,
@@ -484,6 +559,11 @@
 			{
 				"type": "consume_item",
 				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
 				"disableJEI": true
 			},
 			{

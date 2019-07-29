@@ -11,7 +11,7 @@ mods.jei.JEI.addDescription( [<contenttweaker:help0>],
 	"You can get more info on a block or item by looking it up in JEI. Use R while hovering over the item to look up its 'R'ecipe, and U to look up its 'U'ses."
 );
 mods.jei.JEI.addDescription( [<contenttweaker:help0>],
-	"The other blue Help icon covers all the gameplay changes in this modpack. It contains minor spoilers, so feel free to skip it if you want to explore the gameplay yourself."
+	"The other blue Help icon covers all the gameplay changes in this modpack.\n\nThe Myconesia achievements tab shows how to progress through the game."
 );
 
 # antique atlas tips

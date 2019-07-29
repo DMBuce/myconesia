@@ -24,6 +24,11 @@ jsontemplate='
 				"disableJEI": true
 			},
 			{
+				"type": "play_sound",
+				"name": "minecraft:block.slime.break",
+				"disableJEI": true
+			},
+			{
 				"type": "consume_block",
 				"name": "botania:shinyflower",
 				"meta": %s,

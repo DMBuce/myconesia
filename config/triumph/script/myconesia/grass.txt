@@ -1,0 +1,31 @@
+
+//Set icon item
+setIcon(<minecraft:tallgrass:1>)
+
+//Set title String
+setTitle("Grass")
+
+//Set description String
+setDescription("Use bonemeal on dirt to get tall grass")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("myconesia:bonemeal")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(50,76)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+alwaysVisible()
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria.setBlock(<minecraft:dirt>)

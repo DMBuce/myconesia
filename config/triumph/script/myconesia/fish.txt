@@ -1,0 +1,77 @@
+
+//Set icon item
+setIcon(<minecraft:fish>)
+
+//Set title String
+setTitle("Exotic Fish")
+
+//Set description String
+setDescription("Catch one of every overworld fish")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("myconesia:fishing")
+
+//Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
+setShowToast(true)
+
+//Set the advancement to not send a chat message when it is achieved.
+setAnnounceToChat(false)
+
+//Set the position
+setPos(-49,-44)
+
+//Hide the connection lines, so I can have a pretty shape
+//hideLines()
+alwaysVisible()
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasFish", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<minecraft:fish:0>)        // cod
+criteria.addItem(<minecraft:fish:1>)        // salmon
+criteria.addItem(<minecraft:fish:2>)        // clownfish
+criteria.addItem(<minecraft:fish:3>)        // pufferfish
+criteria.addItem(<advanced-fishing:fish:0>)
+criteria.addItem(<advanced-fishing:fish:1>) // magma jellyfish
+criteria.addItem(<advanced-fishing:fish:2>)
+criteria.addItem(<advanced-fishing:fish:3>) // frost minnow
+criteria.addItem(<advanced-fishing:fish:4>)
+criteria.addItem(<advanced-fishing:fish:5>) // golden koi
+criteria.addItem(<advanced-fishing:fish:6>)
+criteria.addItem(<advanced-fishing:fish:7>)
+criteria.addItem(<advanced-fishing:fish:8>) // obsidian bream
+//criteria.addItem(<advanced-fishing:fish:9>) // nether sturgeon
+//criteria.addItem(<advanced-fishing:fish:10>) // quartz chub
+//criteria.addItem(<advanced-fishing:fish:11>) // flarefin koi
+//criteria.addItem(<advanced-fishing:fish:12>) // blaze pike
+//criteria.addItem(<advanced-fishing:fish:13>) // ender shad
+criteria.addItem(<advanced-fishing:fish:14>) // enderclam
+//criteria.addItem(<advanced-fishing:fish:15>) // chorus koi
+criteria.addItem(<advanced-fishing:fish:16>)
+criteria.addItem(<advanced-fishing:fish:17>)
+criteria.addItem(<advanced-fishing:fish:18>)
+criteria.addItem(<advanced-fishing:fish:19>) // angelfish
+criteria.addItem(<advanced-fishing:fish:20>)
+//criteria.addItem(<advanced-fishing:fish:21>) // sponge eater
+//criteria.addItem(<advanced-fishing:fish:22>) // snowy walleye
+criteria.addItem(<advanced-fishing:fish:23>)
+//criteria.addItem(<advanced-fishing:fish:24>) // withered crucian
+criteria.addItem(<advanced-fishing:fish:25>)
+criteria.addItem(<advanced-fishing:fish:26>)
+criteria.addItem(<advanced-fishing:fish:27>) // red shroomfin
+criteria.addItem(<advanced-fishing:fish:28>) // brown shroomfin
+criteria.addItem(<advanced-fishing:fish:29>) // fungi catfish
+criteria.addItem(<advanced-fishing:fish:30>)
+criteria.addItem(<advanced-fishing:fish:31>)
+criteria.addItem(<advanced-fishing:fish:32>)
+criteria.addItem(<advanced-fishing:fish:33>)
+criteria.addItem(<advanced-fishing:fish:34>) // sunfish
+//criteria.addItem(<advanced-fishing:fish:35>) // glacier anchovy
+criteria.addItem(<advanced-fishing:fish:36>) // catfish
+criteria.addItem(<advanced-fishing:fish:37>) // pike
+//criteria.addItem(<advanced-fishing:fish:38>) magikarp
+criteria.addItem(<advanced-fishing:fish:39>)
+criteria.addItem(<advanced-fishing:fish:40>)
+//criteria.addItem(<advanced-fishing:fish:41>) // cursed koi
+//criteria.addItem(<advanced-fishing:fish:42>) // spookyfin
