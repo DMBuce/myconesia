@@ -10,7 +10,9 @@ setTitle("Myconesia")
 setDescription("Get sticks, stones, and string from mycelium")
 
 //Set background String. This is a path to any texture in a resource pack, so you can set it to fun things.
-setBackground("minecraft:textures/block/mushroom_block_inside.png")
+//setBackground("minecraft:textures/block/mushroom_block_inside.png")
+//setBackground("minecraft:textures/gui/advancements/backgrounds/stone.png")
+setBackground("contenttweaker:textures/blocks/mushroom_block_inside.png")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)

@@ -1,4 +1,4 @@
-summon minecraft:fireworks_rocket ~ ~ ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:1,Colors:[I;14602026,15790320],FadeColors:[I;14188952,15435844]}]}}}}
+summon fireworks_rocket ~ ~ ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:0,Colors:[I;14188952,12801229],FadeColors:[I;15790320]},{Type:0,Flicker:0,Trail:1,Colors:[I;14602026,15435844],FadeColors:[I;15790320]}]}}}}
 give @p minecraft:sapling 1 1
 give @p minecraft:sapling 1 2
 give @p minecraft:sapling 1 3
