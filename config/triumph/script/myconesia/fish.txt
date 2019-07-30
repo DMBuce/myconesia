@@ -6,7 +6,7 @@ setIcon(<minecraft:fish>)
 setTitle("Exotic Fish")
 
 //Set description String
-setDescription("Catch one of every overworld fish")
+setDescription("Catch one of every type of overworld fish")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("myconesia:fishing")

@@ -1,15 +1,15 @@
 
 //Set icon item
-setIcon(<minecraft:log2:1>)
+setIcon(<botania:lexicon>)
 
 //Set title String
-setTitle("Dark Oak Wood")
+setTitle("Lexica Botania")
 
 //Set description String
-setDescription("Turn a huge red mushroom into dark oak logs using a pure daisy")
+setDescription("Make the Lexica Botania using a book and a mushroom")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("myconesia:puredaisy")
+addParent("myconesia:bonemeal")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -18,14 +18,14 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(83,64)
+setPos(17,64)
 
 //Hide the connection lines, so I can have a pretty shape
 //hideLines()
 alwaysVisible()
 
-//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
-criteria = addCriteria("hasDarkOak", "minecraft:inventory_changed")
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasLexica", "minecraft:inventory_changed")
 
 //Adds the required item for the criteria. This is the item that needs to be in the player inventory.
-criteria.addItem(<minecraft:log2:1>)
+criteria.addItem(<botania:lexicon>)

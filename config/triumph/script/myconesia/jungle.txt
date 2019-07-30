@@ -18,7 +18,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(83,-5)
+setPos(83,-17)
 
 //Hide the connection lines, so I can have a pretty shape
 //hideLines()

@@ -1,16 +1,15 @@
 
 //Set icon item
 setIcon(<botania:specialflower, nbt:{type:"puredaisy"}>)
-setFrameType("goal")
 
 //Set title String
 setTitle("Pure Daisy")
 
 //Set description String
-setDescription("Make a pure daisy -- you can find out how by crafting and reading the Lexica Botania")
+setDescription("Make a pure daisy")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("myconesia:mushrooms")
+addParent("myconesia:lexica")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -19,7 +18,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(50,49)
+setPos(50,91)
 
 //Hide the connection lines, so I can have a pretty shape
 //hideLines()

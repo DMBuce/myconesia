@@ -6,6 +6,7 @@ config/multimob/modInformation
 config/BiomeTweaker/output
 config/splash.properties
 config/InvTweaks.cfg
+config/triumph/script-triumph
 
 .curseclient
 .mixin.out/

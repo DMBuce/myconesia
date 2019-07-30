@@ -1,16 +1,16 @@
 
 //Set icon item
-setIcon(<minecraft:fire_charge>)
+setIcon(<botania:blazeBlock>)
 setFrameType("goal")
 
 //Set title String
-setTitle("Portal Supplies")
+setTitle("Portal Gear: Blaze Lamp")
 
 //Set description String
-setDescription("Build a portal and make a fire charge to light it")
+setDescription("Make obsidian from a blaze lamp")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("myconesia:fish")
+addParent("myconesia:lexica")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
 setShowToast(true)
@@ -19,15 +19,14 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(-16,22)
+setPos(-5,23)
 
 //Hide the connection lines, so I can have a pretty shape
 //hideLines()
 alwaysVisible()
 
 //Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
-criteria = addCriteria("hasFireCharge", "minecraft:inventory_changed")
+criteria = addCriteria("hasBlazeLamp", "minecraft:inventory_changed")
 
 //Adds the required item for the criteria. This is the item that needs to be in the player inventory.
-criteria.addItem(<minecraft:fire_charge>)
-criteria.addItem(<minecraft:obsidian>)
+criteria.addItem(<botania:blazeBlock>)

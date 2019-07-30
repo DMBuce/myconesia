@@ -7,10 +7,11 @@ setFrameType("goal")
 setTitle("SuperHostile Mining Dimension")
 
 //Set description String
-setDescription("Go to the nether")
+setDescription("Make a portal and go to the nether")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("myconesia:bucket")
+addParent("myconesia:firecharge")
 addParent("myconesia:obsidian")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.
@@ -20,7 +21,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(-148,61)
+setPos(-181,64)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()

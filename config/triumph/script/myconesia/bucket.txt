@@ -4,7 +4,7 @@ setIcon(<minecraft:bucket>)
 setFrameType("goal")
 
 //Set title String
-setTitle("Bucket")
+setTitle("Portal Gear: Bucket")
 
 //Set description String
 setDescription("Make a bucket")
@@ -19,7 +19,7 @@ setShowToast(true)
 setAnnounceToChat(false)
 
 //Set the position
-setPos(-49,22)
+setPos(-61,23)
 
 //Hide the connection lines, so I can have a pretty shape
 //hideLines()
