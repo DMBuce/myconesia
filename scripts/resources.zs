@@ -8,19 +8,41 @@ recipes.addShaped("CTSapling", <minecraft:sapling:0>, [
 	[ null,                  <minecraft:deadbush>,     null ]
 ]);
 
+# add quark saplings to treeSapling oreDict
+<ore:treeSapling>.add(<quark:variant_sapling:0>);
+<ore:treeSapling>.add(<quark:variant_sapling:1>);
+
 # prevent obtaining saplings through uncrafting table
 recipes.remove(<botania:lexicon>);
-<ore:treeSapling>.remove(<minecraft:0>);
-<ore:treeSapling>.remove(<minecraft:1>);
-<ore:treeSapling>.remove(<minecraft:2>);
-<ore:treeSapling>.remove(<minecraft:3>);
-<ore:treeSapling>.remove(<minecraft:4>);
-<ore:treeSapling>.remove(<minecraft:5>);
+recipes.removeByRecipeName("quark:paper_wall_sakura");
+recipes.removeByRecipeName("quark:paper_lantern_1");
 
 # re-add lexica botania
 recipes.addShapeless(
 	<botania:lexicon>.withTag({}),
 	[<minecraft:book>, <minecraft:red_mushroom> | <minecraft:brown_mushroom>]
+);
+
+# re-add decorated paper wall/lamp
+var saplings = <quark:variant_sapling:0> |
+	<quark:variant_sapling:1> |
+	<twilightforest:twilight_sapling:0> |
+	<twilightforest:twilight_sapling:1> |
+	<twilightforest:twilight_sapling:2> |
+	<twilightforest:twilight_sapling:3> |
+	<twilightforest:twilight_sapling:4> |
+	<twilightforest:twilight_sapling:5> |
+	<twilightforest:twilight_sapling:6> |
+	<twilightforest:twilight_sapling:7> |
+	<twilightforest:twilight_sapling:8> |
+	<twilightforest:twilight_sapling:9>;
+recipes.addShapeless(
+      <quark:paper_wall_sakura>,
+      [<quark:paper_wall_big>, saplings]
+);
+recipes.addShapeless(
+      <quark:paper_lantern:1>,
+      [<quark:paper_lantern:0>, saplings]
 );
 
 # gravel > flint
