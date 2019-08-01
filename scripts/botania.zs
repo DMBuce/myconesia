@@ -1,17 +1,8 @@
 
 import crafttweaker.item.IItemStack;
 
-# prevent obtaining saplings through uncrafting table
-recipes.remove(<botania:lexicon>);
-
 # remove livingroot sapling recipe
 recipes.removeByRecipeName("botania:garden_of_glass/root_to_sapling");
-
-# lexica botania
-recipes.addShapeless(
-	<botania:lexicon>.withTag({}),
-	[<minecraft:book>, <minecraft:red_mushroom> | <minecraft:brown_mushroom>]
-);
 
 # add vanilla mushrooms to petal oredict
 #<ore:petalRed>.add(<minecraft:red_mushroom>);

@@ -8,6 +8,21 @@ recipes.addShaped("CTSapling", <minecraft:sapling:0>, [
 	[ null,                  <minecraft:deadbush>,     null ]
 ]);
 
+# prevent obtaining saplings through uncrafting table
+recipes.remove(<botania:lexicon>);
+<ore:treeSapling>.remove(<minecraft:0>);
+<ore:treeSapling>.remove(<minecraft:1>);
+<ore:treeSapling>.remove(<minecraft:2>);
+<ore:treeSapling>.remove(<minecraft:3>);
+<ore:treeSapling>.remove(<minecraft:4>);
+<ore:treeSapling>.remove(<minecraft:5>);
+
+# re-add lexica botania
+recipes.addShapeless(
+	<botania:lexicon>.withTag({}),
+	[<minecraft:book>, <minecraft:red_mushroom> | <minecraft:brown_mushroom>]
+);
+
 # gravel > flint
 recipes.addShapeless(
 	"CTFlint",
