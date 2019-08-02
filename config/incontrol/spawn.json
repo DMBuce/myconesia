@@ -20,6 +20,7 @@
 			"primitivemobs:trollager",
 			"primitivemobs:void_eye"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -32,6 +33,7 @@
 			"primitivemobs:bewitched_tome",
 			"primitivemobs:treasure_slime"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -41,6 +43,7 @@
 			"primitivemobs:bewitched_tome",
 			"primitivemobs:treasure_slime"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -50,6 +53,7 @@
 			"minecraft:guardian",
 			"merpig:merpig"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -69,6 +73,7 @@
 			"primitivemobs:haunted_tool"
 		],
 		"mincount": 2,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -78,6 +83,7 @@
 			"primitivemobs:haunted_tool"
 		],
 		"minheight": 41,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -97,6 +103,7 @@
 		"mob": [
 			"primitivemobs:bewitched_tome"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -107,6 +114,7 @@
 			"primitivemobs:treasure_slime",
 			"primitivemobs:festive_creeper"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -134,6 +142,7 @@
 			"minecraft:zombie"
 		],
 		"mincount": 25,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -151,6 +160,7 @@
 			"minecraft:wither_skeleton"
 		],
 		"mincount": 12,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -176,6 +186,7 @@
 			"primitivemobs:festive_creeper"
 		],
 		"mincount": 2,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -184,12 +195,14 @@
 			"primitivemobs:trollager"
 		],
 		"mincount": 3,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
 		"dimension": -1,
 		"block": "minecraft:bone_block",
 		"seesky": true,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
