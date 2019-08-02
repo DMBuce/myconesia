@@ -125,6 +125,7 @@
 			"primitivemobs:mother_spider",
 			"primitivemobs:festive_creeper"
 		],
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -141,6 +142,7 @@
 			"minecraft:blaze"
 		],
 		"mincount": 6,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
@@ -159,6 +161,7 @@
 			"minecraft:spider"
 		],
 		"mincount": 12,
+		"spawner": false,
 		"result": "deny"
 	},
 	{
