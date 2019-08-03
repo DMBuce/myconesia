@@ -1,12 +1,12 @@
 
 import crafttweaker.item.IItemStack;
 
-# oak sapling recipe
-recipes.addShaped("CTSapling", <minecraft:sapling:0>, [
-	[ null,                  <botania:manaresource:5>,  null ],
-	[ <botania:manaresource:5>, <twilightforest:thorn_rose>, <botania:manaresource:5> ],
-	[ null,                  <minecraft:deadbush>,     null ]
-]);
+## oak sapling recipe
+#recipes.addShaped("CTSapling", <minecraft:sapling:0>, [
+#	[ null,                  <botania:manaresource:5>,  null ],
+#	[ <botania:manaresource:5>, <twilightforest:thorn_rose>, <botania:manaresource:5> ],
+#	[ null,                  <minecraft:deadbush>,     null ]
+#]);
 
 # add quark saplings to treeSapling oreDict
 <ore:treeSapling>.add(<quark:variant_sapling:0>);

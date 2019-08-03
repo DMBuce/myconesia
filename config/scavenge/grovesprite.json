@@ -1,0 +1,48 @@
+{
+"block_pools" : [
+	{
+		"name": "grovesprite",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "botania:avatar"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "botania:manaresource",
+				"meta": 5,
+				"disableJEI": true
+			},
+			{
+				"type": "has_block_structure",
+				"blocks": [
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": 0}
+					}
+				],
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"disableJEI": true
+			},
+			{
+				"type": "use_command",
+				"name": "summon",
+				"arguments": ["primitivemobs:grovesprite", "~", "~", "~", "{HandItems:[{id:\"minecraft:sapling\",Count:1}]}"],
+				"disableJEI": true
+			}
+		]
+	}
+]
+}

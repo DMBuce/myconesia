@@ -7,10 +7,10 @@ setFrameType("challenge")
 setTitle("Sapling")
 
 //Set description String
-setDescription("Craft an oak sapling. You did it!")
+setDescription("Summon a grove sprite and take its sapling. You did it!")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("myconesia:thornrose")
+addParent("myconesia:castlerune")
 addParent("myconesia:gaiaspirit")
 
 //Set the toast notification in the top right corner of the screen to not show up when this advancement is achieved.

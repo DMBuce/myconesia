@@ -223,6 +223,22 @@ mods.jei.JEI.addDescription(
 mods.jei.JEI.addDescription(
 	[
 		<contenttweaker:help1>,
+		<botania:avatar>,
+		<botania:manaresource:5>,
+		<twilightforest:castle_rune_brick:0>,
+		<twilightforest:castle_rune_brick:1>,
+		<twilightforest:castle_rune_brick:2>,
+		<twilightforest:castle_rune_brick:3>,
+		<minecraft:spawn_egg>.withTag({EntityTag:{id:"primitivemobs:grovesprite"}}),
+		<minecraft:sapling:0>
+	],
+	"Place a Livingwood Avatar on top of Castle Rune Brick and use (right-click) a Gaia Spirit on it to summon a Grove Sprite holding an Oak Sapling."
+);
+
+# wood
+mods.jei.JEI.addDescription(
+	[
+		<contenttweaker:help1>,
 		<minecraft:sapling:0>,
 		<minecraft:sapling:1>,
 		<minecraft:sapling:2>,

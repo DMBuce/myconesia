@@ -1,12 +1,12 @@
 
 //Set icon item
-setIcon(<twilightforest:thorn_rose>)
+setIcon(<twilightforest:castle_rune_brick:3>)
 
 //Set title String
-setTitle("Thorn Rose")
+setTitle("Castle Rune Brick")
 
 //Set description String
-setDescription("Follow the advancements in the Twilight Forest tab to defeat the Twilight Forest and get a thorn rose")
+setDescription("Follow the advancements in the Twilight Forest tab to defeat the Twilight Forest and get a castle rune brick")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("myconesia:magicmap")
@@ -24,8 +24,8 @@ setPos(-82,91)
 //hideLines()
 alwaysVisible()
 
-//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
-criteria = addCriteria("hasThornRose", "minecraft:inventory_changed")
+//Adds criteria named "entered_forest" with the trigger type "minecraft:location". This function returns the criteria as an object
+criteria = addCriteria("entered_highlands_center", "minecraft:location")
 
-//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
-criteria.addItem(<twilightforest:thorn_rose>)
+//Sets the required biome for the criteria. This is the biome the player must be in.
+criteria.setBiome("twilightforest:highlands_center")
