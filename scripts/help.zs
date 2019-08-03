@@ -36,6 +36,14 @@ mods.jei.JEI.addDescription(
 	"Be careful! If you upgrade the Lexica Botania in your Akashic Tome by throwing it through the Alfheim Portal, the other books in the Tome will be destroyed."
 );
 
+# mithril
+mods.jei.JEI.addDescription(
+	[
+		<contenttweaker:mithril_ingot>
+	],
+	"Mithril is a very versatile metal."
+);
+
 # use psi materials to guide player to the in-game tutorial
 mods.jei.JEI.addDescription(
 	[<psi:material:0>, <psi:material:1>, <psi:material:2>,
@@ -217,22 +225,6 @@ mods.jei.JEI.addDescription(
 		<minecraft:tallgrass:1>
 	],
 	"Use (right-click) Bonemeal on Mycelium to grow Glimmering Mushrooms.\n\nUse Bonemeal on Sand to grow a Cactus, Reed, or Dead Bush.\n\nUse Bonemeal on Dirt to grow Tall Grass."
-);
-
-# wood
-mods.jei.JEI.addDescription(
-	[
-		<contenttweaker:help1>,
-		<botania:avatar>,
-		<botania:manaresource:5>,
-		<twilightforest:castle_rune_brick:0>,
-		<twilightforest:castle_rune_brick:1>,
-		<twilightforest:castle_rune_brick:2>,
-		<twilightforest:castle_rune_brick:3>,
-		<minecraft:spawn_egg>.withTag({EntityTag:{id:"primitivemobs:grovesprite"}}),
-		<minecraft:sapling:0>
-	],
-	"Place a Livingwood Avatar on top of Castle Rune Brick and use (right-click) a Gaia Spirit on it to summon a Grove Sprite holding an Oak Sapling."
 );
 
 # wood
@@ -439,13 +431,20 @@ mods.jei.JEI.addDescription(
 #	"Use (right-click) Mutagenic Paste on any mushroom to get another random mushroom."
 #);
 
-# mithril
+# sapling
 mods.jei.JEI.addDescription(
 	[
 		<contenttweaker:help1>,
-		<contenttweaker:mithril_ingot>
+		<botania:avatar>,
+		<botania:manaresource:5>,
+		<twilightforest:castle_rune_brick:0>,
+		<twilightforest:castle_rune_brick:1>,
+		<twilightforest:castle_rune_brick:2>,
+		<twilightforest:castle_rune_brick:3>,
+		<minecraft:spawn_egg>.withTag({EntityTag:{id:"primitivemobs:grovesprite"}}),
+		<minecraft:sapling:0>
 	],
-	"Mithril is a very versatile metal."
+	"Place a Livingwood Avatar on top of Castle Rune Brick and use (right-click) a Gaia Spirit on it to summon a Grove Sprite holding an Oak Sapling."
 );
 
 # endgame
