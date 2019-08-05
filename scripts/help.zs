@@ -435,16 +435,16 @@ mods.jei.JEI.addDescription(
 mods.jei.JEI.addDescription(
 	[
 		<contenttweaker:help1>,
-		<botania:avatar>,
+		<twilightforest:thorn_rose>,
 		<botania:manaresource:5>,
 		<twilightforest:castle_rune_brick:0>,
 		<twilightforest:castle_rune_brick:1>,
 		<twilightforest:castle_rune_brick:2>,
 		<twilightforest:castle_rune_brick:3>,
-		<minecraft:spawn_egg>.withTag({EntityTag:{id:"primitivemobs:grovesprite"}}),
+		<minecraft:dirt>,
 		<minecraft:sapling:0>
 	],
-	"Place a Livingwood Avatar on top of Castle Rune Brick and use (right-click) a Gaia Spirit on it to summon a Grove Sprite holding an Oak Sapling."
+	"Surround a Dirt block with Castle Rune Bricks, place a Thorn Rose on top, and use (right-click) a Gaia Spirit on the Rose to get an Oak Sapling."
 );
 
 # endgame

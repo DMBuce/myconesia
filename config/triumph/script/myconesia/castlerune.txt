@@ -6,7 +6,7 @@ setIcon(<twilightforest:castle_rune_brick:3>)
 setTitle("Castle Rune Brick")
 
 //Set description String
-setDescription("Follow the advancements in the Twilight Forest tab to defeat the Twilight Forest and get a castle rune brick")
+setDescription("Follow the advancements in the Twilight Forest tab to defeat the Twilight Forest and get four castle rune bricks")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("myconesia:magicmap")
