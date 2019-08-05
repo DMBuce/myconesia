@@ -1,7 +1,7 @@
 {
 "block_pools" : [
 	{
-		"name": "sapling",
+		"name": "sapling-log",
 		"disableJEI": true,
 		"type":
 		{
@@ -21,7 +21,172 @@
 				"type": "has_block_structure",
 				"blocks": [
 					{
-						"name": "minecraft:dirt",
+						"name": "minecraft:log",
+						"positions": {"x": 0, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": -1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": 1}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": -1}
+					}
+				],
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "minecraft:sapling",
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "sapling-log2",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "twilightforest:thorn_rose"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "botania:manaresource",
+				"meta": 5,
+				"disableJEI": true
+			},
+			{
+				"type": "has_block_structure",
+				"blocks": [
+					{
+						"name": "minecraft:log2",
+						"positions": {"x": 0, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": -1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": 1}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": -1}
+					}
+				],
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "minecraft:sapling",
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "sapling-twilightlog",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "twilightforest:thorn_rose"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "botania:manaresource",
+				"meta": 5,
+				"disableJEI": true
+			},
+			{
+				"type": "has_block_structure",
+				"blocks": [
+					{
+						"name": "twilightforest:twilight_log",
+						"positions": {"x": 0, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": -1, "y": -1, "z": 0}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": 1}
+					},
+					{
+						"name": "twilightforest:castle_rune_brick",
+						"positions": {"x": 0, "y": -1, "z": -1}
+					}
+				],
+				"disableJEI": true
+			},
+			{
+				"type": "consume_item",
+				"amount": 1,
+				"disableJEI": true
+			},
+			{
+				"type": "consume_block",
+				"name": "minecraft:sapling",
+				"disableJEI": true
+			}
+		]
+	},
+	{
+		"name": "sapling-log",
+		"disableJEI": true,
+		"type":
+		{
+			"type": "block",
+			"name": "twilightforest:thorn_rose"
+		},
+		"clicktype": "right",
+		"properties":
+		[
+			{
+				"type": "require_item",
+				"name": "botania:manaresource",
+				"meta": 5,
+				"disableJEI": true
+			},
+			{
+				"type": "has_block_structure",
+				"blocks": [
+					{
+						"name": "twilightforest:magic_log",
 						"positions": {"x": 0, "y": -1, "z": 0}
 					},
 					{

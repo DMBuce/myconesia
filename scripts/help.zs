@@ -441,10 +441,17 @@ mods.jei.JEI.addDescription(
 		<twilightforest:castle_rune_brick:1>,
 		<twilightforest:castle_rune_brick:2>,
 		<twilightforest:castle_rune_brick:3>,
-		<minecraft:dirt>,
+		<minecraft:log:0>,
+		<minecraft:log:1>,
+		<minecraft:log:2>,
+		<minecraft:log:3>,
+		<twilightforest:twilight_log:0>,
+		<twilightforest:twilight_log:1>,
+		<twilightforest:twilight_log:2>,
+		<twilightforest:twilight_log:3>,
 		<minecraft:sapling:0>
 	],
-	"Surround a Dirt block with Castle Rune Bricks, place a Thorn Rose on top, and use (right-click) a Gaia Spirit on the Rose to get an Oak Sapling."
+	"Surround any Log with Castle Rune Bricks, place a Thorn Rose on top, and use (right-click) a Gaia Spirit on the Rose to turn it into an Oak Sapling."
 );
 
 # endgame

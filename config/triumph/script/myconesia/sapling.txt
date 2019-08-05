@@ -7,7 +7,7 @@ setFrameType("challenge")
 setTitle("Sapling")
 
 //Set description String
-setDescription("Perform a ritual to turn a thorn rose into a sapling. You did it!")
+setDescription("Turn a thorn rose into a sapling. You did it!")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("myconesia:castlerune")
